@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  font-family: 'Inter';
+}
+.btn-primary{
+  font-weight: 600;
+font-size: 20px;
+color: #FF5959;
+background: transparent;
+border-radius: 5px;
+padding: 16px 12px;
+border: 1px solid #FF5959;
+}
+.btn-primary:hover{
+  background: #FF5959;
+  color: #FFFFFF;
+  transition: .3s all linear;
+}
+/* header part :start */
+.header{
+  background-image: url(../images/donation0.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner{
+  padding: 175px 300px;
+  background: linear-gradient(360deg, #121212f6 -1.87%, rgba(18, 18, 18, 0) 98.13%);
+  text-align: center;
+}
+.banner-title{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.banner-description{
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 0 70px;
+  margin-bottom: 30px;
+}
